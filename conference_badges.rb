@@ -11,7 +11,7 @@ end
 def assign_rooms(names)
   rooms_arr = []
   names.each_with_index { |name, idx|
-  rooms_arr << "Hello, #{name}! You'll be assigned to room #{idx % 7 + 1}!"
+    rooms_arr << "Hello, #{name}! You'll be assigned to room #{idx % 7 + 1}!"
   }
   return rooms_arr
 end
