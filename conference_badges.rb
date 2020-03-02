@@ -17,9 +17,9 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  names.each { |name| 
+  names.each { |name|
     puts badge_maker(name)
     puts assign_rooms(name)
   }
-  
+
 end
