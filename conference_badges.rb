@@ -19,9 +19,9 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  names.each { |name|
+  names.each do |name|
     puts batch_badge_creator(name)
     puts assign_rooms(name)
     binding.pry
-  }
+  end
 end
