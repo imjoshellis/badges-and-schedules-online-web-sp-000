@@ -15,3 +15,11 @@ def assign_rooms(names)
   }
   return rooms_arr
 end
+
+def printer(names)
+  names.each { |name| 
+    puts badge_maker(name)
+    puts assign_rooms(name)
+  }
+  
+end
