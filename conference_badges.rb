@@ -19,10 +19,8 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  binding.pry
   names.each { |name|
     puts batch_badge_creator(name)
     puts assign_rooms(name)
   }
-
 end
